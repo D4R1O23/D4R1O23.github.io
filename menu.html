@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Menù - Ristorante XXX</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="img/LogoDP-white.png" />
+</head>
+<body>
+     <button class="scrolltop"><p class="fz-20">&#8593;</p></button>
+  <div class="header header-contatti">
+    <div class="header__logo">
+    <a href="index.html"><img  class="header__logo__img" src="img/LogoDP-white.png" alt="dp_logo"></a>
+    </div>
+      <ul class="header__menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">Chi siamo</a></li>
+        <li><a class="menu__link">Il nostro menù <i class="fas fa-chevron-down" style="padding-left:5px; font-size:11px"></i></a>
+          <ul class="submenu">
+            <li><a class="menu__item__link"href="#page1">Primi</a></li>
+            <li><a class="menu__item__link"href="#page2">Secondi</a></li>
+          </ul>
+          </li>
+        <li><a class="contatti__link"href="contatti.html">Contatti</a></li>
+      </ul>
+      <div class="header__icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+  </div>
+  <div class="hero-contatti">
+    <div class="hero-contatti_content">
+      <h1>Il nostro menù</h1>
+      <div class="separator"><div class="line line-left"></div> <i class="fas fa-asterisk"></i><div class="line line-right"></div></div>
+      <p>Ristorante XXX</p>
+    </div>
+  </div>
+  <main>
+  <div class="spacer"></div>
+  <div class="box">
+        <span id=page1><a data-fancybox="gallery" href="img/page1.png" data-caption="Pagina 1"><img class="img-menu"src="img/page1.png" alt=""></a></span>
+        <span id="page2"><a data-fancybox="gallery" href="img/page2.png" data-caption="Pagina 2"><img class="img-menu"src="img/page2.png" alt=""></a></span>
+  </div>
+<div class="spacer"></div>
+<footer>
+  <div class="footer__information">
+    <div class="copy">
+      <p class="fz-14" style="margin-top: 20px;"> &copy;2020-Dario Pallocchini</p>
+    </div>
+    <div class="footer__social" style="margin-top: 10px;">
+      <a href="___"><i class="padding-icon fab fa-facebook"></i></a>
+      <a href="___"><i class="padding-icon fab fa-instagram"></i></a>
+      <a href="___"><i class="padding-icon fab fa-tripadvisor"></i></a>
+    </div>
+  </div>
+  </main>
+</footer>
+</body>
+</html>
