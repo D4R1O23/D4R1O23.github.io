@@ -61,14 +61,14 @@ display: flex;}
   .contatti__link{background: #000; color: #fff!important; padding: 0;margin: 0;}
   .contatti-rapidi{display: none;}
   .header__menu{transition: transform 1s cubic-bezier(.215, .61, .355, 1);padding-top: 100px;position: absolute; top:0;left: 0;transform: translateY(-9999px); right: 0; background: #000; height: 100vh; z-index: 112}
-  .header li{display: block; font-size: 30px; line-height: 90px;text-align: center;}
+  .header li{display: block; font-size: 30px; line-height: 80px;text-align: center;}
   .menu-open{ transform: translateY(0);height: 100vh; width: 100%;}
   .header__icon{
     display: block;
     height: 30px;
     width: 30px;
     position: absolute;
-    top: 30px;
+    top: 20px;
     right: 50px;
     z-index: 113
   }
@@ -325,11 +325,12 @@ main{background: #fff;}
 .box{width:70%; margin: 0 auto;}
   .submenu-open{display: block;}
 @media (max-width: 768px) {
-
+  .menu__item__link{border: 1px solid #333}
   .box{width: 100%;padding :20px}
-  .submenu{width: 100%; background: #000!important; transform: translateX(-5%);}
+  .submenu{width: 100%; background: #444!important; transform: translateX(-5%);border-radius: 0px; height: 165px; border: 1px solid #333;}
   .submenu li{text-align: center;}
   .submenu li a{color: #fff;}
+
 }
 
 /* ! Animazioni */
